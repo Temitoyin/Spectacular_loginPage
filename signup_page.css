@@ -1,0 +1,62 @@
+.welcomeback{
+    float:left;
+    background-color: #2F5365;
+    height:580px;
+    margin: 80px 0 30px 30px;
+    color:#FFFFFF;
+}
+.signin{
+    text-align: center;
+    padding: 100px;
+}
+.signin hr{
+    width:100px;
+}
+.logodiv{
+    padding-left:20px;
+}
+#signinbtn{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #2F5365;
+    height:30px;
+    width:100px;
+    color:#FFFFFF; 
+}
+.signup{
+    float:right;
+    margin:80px 30px 30px 0;
+    width:60%;
+    padding:60px 10px 10px 10px;
+}
+.input{
+    text-align:left;
+    margin:20px;
+    padding: 20px 150px; 50px 150px;
+}
+.inputfield{
+    border-style:none;
+}
+.createaccount{
+    text-align:center;
+}
+.createaccount hr{
+    width:100px;
+}
+#signupbtn{
+    margin-left:350px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #FF4642;
+    color:#FFFFFF;
+    height:40px;
+    width:100px;
+    padding:6px 6px 6px 10px;
+}
+.clear{
+    clear:both;
+}
