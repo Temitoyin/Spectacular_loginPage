@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "amani",
+      "lastName": "kanu",
+      "email": "kanuamani@gmail.com",
+      "username": "sirsuccess",
+      "password": "12345",
+      "roleID": 2
+    }
+  ]
+}
