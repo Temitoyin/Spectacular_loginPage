@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px !important;
+    margin: auto;
+    width: 80%;
+}
+
+ul {
+    display: flex;
+    font-family: sans-serif;
+}
+
+.home {
+    color: rgb(119, 194, 219);
+}
+
+.signup {
+    background-color: brown;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    display: block;
+    margin-left: 10px;
+    color: black;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+#spectacularlogo {
+    height: 75px;
+}
+
+.container {
+    background-image: url(undraw_social_influencer_sgsv.svg);
+    background-repeat: no-repeat;
+    background-position-x: 500px;
+    height: 100vh;
+    box-shadow: 5px;
+    margin-top: 20px;
+    position: relative;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: rgb(124, 124, 196);
+}
+
+.landingmessage {
+    position: absolute;
+    width: 500px;
+    top: 120px;
+    left: 35px;
+    font-family: sans-serif;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border: 1px solid linear-gradient(to left, #a3bded 0%, #6991c7 100%);
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background: black;
+    margin-left: 100px;
+}
