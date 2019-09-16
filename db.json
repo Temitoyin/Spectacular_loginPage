@@ -8,6 +8,14 @@
       "username": "sirsuccess",
       "password": "12345",
       "roleID": 2
+    },
+    {
+      "firstName": "tasha",
+      "lastName": "debie",
+      "email": "tashaemail@example.com",
+      "userName": "natasha",
+      "password": "12345erere",
+      "id": 2
     }
   ]
 }

@@ -9,7 +9,6 @@
         
       $('.add').on('click', function(e){
         e.preventDefault();
-        alert("i see tasha");
             $.ajax({
           type: 'POST',
           url: 'http://localhost:3000/users/',
