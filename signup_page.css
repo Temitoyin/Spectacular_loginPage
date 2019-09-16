@@ -24,6 +24,7 @@
     height:30px;
     width:100px;
     color:#FFFFFF; 
+    cursor: pointer;
 }
 .signup{
     float:right;
@@ -56,6 +57,7 @@
     height:40px;
     width:100px;
     padding:6px 6px 6px 10px;
+    cursor: pointer;
 }
 .clear{
     clear:both;
