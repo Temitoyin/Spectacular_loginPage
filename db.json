@@ -2,7 +2,7 @@
     "users": [
       {
         "id": 1,
-        "firstName": "elijah",
+        "name": "elijah",
         "email": "elijjaaahhhh@gmail.com",
         "password": "12345",
         "confirmPassword": "12345",
