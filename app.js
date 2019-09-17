@@ -20,7 +20,7 @@
             "password": $password.val(),
         },
           success: function(){
-            alert('form has been submitted');
+            alert( firstName + ' form has been submitted');
             window.location.href = "login.html";
           },
           error: function () {
