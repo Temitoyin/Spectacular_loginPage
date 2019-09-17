@@ -1,0 +1,19 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "firstName": "elijah",
+        "email": "elijjaaahhhh@gmail.com",
+        "password": "12345",
+        "confirmPassword": "12345",
+        "roleID": 2
+      },
+      {
+        "firstName": "miracle",
+        "email": "email@example.com",
+        "password": "123456",
+        "confirmPassword": "12345",
+        "id": 3
+      }
+    ]
+  }
