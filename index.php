@@ -24,7 +24,7 @@
  </nav>
   <main>
       <div id="messagebox" class="messagebox">
-      <button>Ok</button>
+      <button class="ok">Ok</button>
       </div>
       <div class="container">
   

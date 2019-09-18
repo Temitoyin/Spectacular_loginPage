@@ -10,6 +10,10 @@ signUpBtn.addEventListener('click', () => {
   container.classList.add('active');
 });
 
+$(".ok").click(function(){
+               $(".messagebox").fadeOut(1000);
+               });
+
 
 
 ///////////////////////////////////////////////////////////////////////
