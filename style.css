@@ -160,6 +160,7 @@ li:hover {
   height: 2px;
   background: rgba(18, 161, 155, 0.7);
   border-radius: 20px;
+  margin-bottom: 2rem;
 }
 
 .line2 {
