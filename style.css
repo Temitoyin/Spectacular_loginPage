@@ -150,6 +150,11 @@ li:hover {
   background: none;
 }
 
+.shadow: hover {
+    background: #fff;
+    color: #333;
+}
+
 .line {
   width: 60px;
   height: 2px;
@@ -196,6 +201,41 @@ li:hover {
   transition: transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
   
+}
+
+.flex {
+    margin-top: 0.8rem;
+    text-align: center;
+    display: flex;
+}
+
+.left, .right {
+    width: 60px;
+    height: 1px;
+    background: rgba(18, 161, 155, 0.7);
+    border-radius: 10px;
+    margin: 0.5rem;
+}
+
+.icons {
+    display: flex;
+    
+}
+
+.icons div {
+    border: 1px solid #333;
+    padding: 0.7rem;
+    color: #333;
+    border-radius: 5px;
+    margin: 2rem 0.5rem 0 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.icons div:hover {
+    background: #333;
+    color: #fff;
 }
 
 .form-container .form-signin {
