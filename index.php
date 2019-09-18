@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <title>Form</title>
 </head>
 <body>
@@ -28,12 +29,25 @@
             <form class="form-signin">
               <h3>Welcome back,</h3>
               <div class="line"></div>
-              <div class="icons"></div>
+         
               <input type="email" placeholder="Enter email" class="username" required minlength="3" name="loginemail">
               <input type="password" placeholder="Enter password" class="password" required minlength="3" name="loginpassword">
               <button type="submit" name="submit">Sign in</button>
+              
+              <div class="flex">
+                  <div class="left"></div>
+                  <span class="Text">Or</span>
+                  <div class="right"></div>
+              </div>
+              
+              
+              <div class="icons">
+                  <div><i class="fab fa-facebook-f"></i></div>
+                  <div><i class="fab fa-google"></i></div>
+                  <div><i class="fab fa-twitter"></i></div>
+              </div>
             </form>
-          
+            
             <form class="form-signout">
               <h3>Time to feel like home,</h3>
               <div class="line"></div>
