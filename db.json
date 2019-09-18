@@ -1,29 +1,9 @@
 {
     "users": [
         {
-            "id": 1,
-            "username": "elijah",
-            "email": "elijjaaahhhh@gmail.com",
-            "password": "12345",
-            "confirmPassword": "12345",
-            "roleID": 2
-        },
-        {
-            "username": "miracle",
-            "email": "email@example.com",
-            "password": "123456",
-            "confirmPassword": "12345",
-            "id": 3
-        },
-        {
             "username": "nanotek",
-            "password": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
-            "email": "silencia@gmail.com"
-        },
-        {
-            "username": "Nanotek",
-            "password": "de78cffd10b5b80aa66814e53c55854ab493a0b2af1bf9c10b6afea6eed60158",
-            "email": "nanumichael27@gmail.com"
+            "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+            "email": "nanotek@gmail.com"
         }
     ]
 }

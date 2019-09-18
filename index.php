@@ -26,12 +26,13 @@
       <div class="container">
   
           <div class="form-container">
-            <form class="form-signin">
+            <form class="form-signin" id="loginform" method="post">
               <h3>Welcome back,</h3>
               <div class="line"></div>
+                  <span id="loginmessage"></span>
          
-              <input type="email" placeholder="Enter email" class="username" required minlength="3" name="loginemail">
-              <input type="password" placeholder="Enter password" class="password" required minlength="3" name="loginpassword">
+              <input type="email" placeholder="Enter email or username" class="username"  name="loginemail">
+              <input type="password" placeholder="Enter password" class="password" name="loginpassword">
               <button type="submit" name="submit">Sign in</button>
               
               <div class="flex">
@@ -48,14 +49,15 @@
               </div>
             </form>
             
-            <form class="form-signout">
+            <form class="form-signout" id="signupform" method="post">
               <h3>Time to feel like home,</h3>
               <div class="line"></div>
               <p>Sign up today earn rewards and special member promotion</p>
-             <input type="text" placeholder="Enter Name" required minlength="3" class="name" id="name" name="username">
-              <input type="email" placeholder="Enter Email" required minlength="3" class="email" id="email" name="email">
-              <input type="password" placeholder="Enter Password" required minlength="3" class="newpassword" id="password" name="password"> 
-              <input type="password" placeholder="Confirm Password" required minlength="3" class="comfirm-pass" id="confirmPassword" name="password2">
+                <span id="signupmessage"></span>
+             <input type="text" placeholder="Enter username" class="name" id="name" name="username">
+              <input type="email" placeholder="Enter Email" class="email" id="email" name="email">
+              <input type="password" placeholder="Enter Password" class="newpassword" id="password" name="password"> 
+              <input type="password" placeholder="Confirm Password" class="comfirm-pass" id="confirmPassword" name="password2">
               <button class="add" type="submit" name="signup">Sign up</button>
             </form>
         </div>

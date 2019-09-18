@@ -4,14 +4,14 @@
 
 
 //    <!--Define error messages-->
-$missingUsername = '<p><strong>Please fill in a userame</strong></p>';
-$invalidUsername = '<p><strong>Username must be at least 4 characters</strong></p>';
-$missingEmail = '<p><strong>Please fill in your email address</strong></p>';
-$invalidEmail = '<p><strong>Invalid email address! Please enter a valid email</strong></p>';
-$missingPassword = '<p><strong>Please fill in your password</strong></p>';
-$invalidPassword = '<p><strong>password must be at least 4 characters!</strong></p>';
-$differentPassword = '<p><strong>Passwords don\'t match</strong></p>';
-$missingPassword2 = '<p><strong>Please confirm your password</strong></p>';
+$missingUsername = '<span>Please fill in a userame</span>';
+$invalidUsername = '<span>Username must be at least 4 characters</span>';
+$missingEmail = '<span>Please fill in your email address</span>';
+$invalidEmail = '<span>Invalid email address! Please enter a valid email</span>';
+$missingPassword = '<span>Please fill in your password</span>';
+$invalidPassword = '<span>password must be at least 4 characters!</span>';
+$differentPassword = '<span>Passwords don\'t match</span>';
+$missingPassword2 = '<span>Please confirm your password</span>';
 
 $errors = "";
 $username = "";
@@ -100,9 +100,13 @@ $password  = hash('sha256', $password);
 
         //Check if user already exists
         foreach($arr_data["users"] as $item ){
-            if($item["email"] === $email or $item["username"] === $username){
-                echo"This user is already registered";
+            if($item["email"] === $email ){
+                echo"<span>$email is already registered!</span>";
                 exit;
+            }
+            if($item["username"] === $username){
+                echo "<span>$username is already taken! please use another username</span>";
+                    exit;
             }
         }
         
@@ -113,6 +117,7 @@ $password  = hash('sha256', $password);
 		//write json data into data.json file
 		if (file_put_contents($myFile, $jsondata)) {
 			echo "You have successfully signed up";
+            echo "<script>location.reload()</script>";
             
 		}
 
