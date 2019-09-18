@@ -364,16 +364,16 @@ li:hover {
 /*# sourceMappingURL=style.css.map */
 
 .messagebox{
-    background-color: rgb(74, 179, 177);
+    background-color: #ffffff;
     border-radius: 15px;
-    display:;
-    width: 80%;
+    width: 40%;
     text-align: center;
-    height:  200px;
+    height:  100px;
     position: absolute;
-    z-index: 
+    top: -25%;
+    right: 450px;
 }
 .messagebox button{
     position: relative;
-    top: 60%
+    top: 60%;
 }
