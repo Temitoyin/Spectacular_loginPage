@@ -99,7 +99,12 @@ $password  = hash('sha256', $password);
 		$arr_data = json_decode($jsondata, true);
 
         //Check if user already exists
-        
+        foreach($arr_data["users"] as $item ){
+            if($item["email"] === $email or $item["username"] === $username){
+                echo"This user is already registered";
+                exit;
+            }
+        }
         
 		// Push user data to array
 		array_push($arr_data['users'], $formdata);
